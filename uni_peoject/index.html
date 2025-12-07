@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Български открития - Начало</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<header>
+    <div class="header-content">
+        <a href="index.html" class="logo-link">
+            <img src="logos/image-removebg-preview-removebg-preview.png" alt="Лого" class="logo">
+        </a>
+        <h1 class="desktop-title">Велики Български Открития</h1>
+    </div>
+
+    <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+
+    <nav>
+        <ul class="nav-list">
+            <li><a href="index.html">Начало</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Открития ▾</a>
+                <div class="dropdown-content">
+                    <a href="computer.html">Компютърът</a>
+                    <a href="yogurt.html">Кисело мляко</a>
+                    <a href="airbag.html">Въздушна възглавница</a>
+                    <a href="discoveries.html">Виж Таблица</a>
+                </div>
+            </li>
+            <li><a href="contacts.html">Контакти</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h2>Геният на българите</h2>
+                <p>Пътешествие през иновациите, променили света.</p>
+                <a href="computer.html" class="btn hero-btn">Разгледай</a>
+            </div>
+        </section>
+
+        <section class="scroll-container">
+            
+            <div class="discovery-card hidden">
+                <div class="card-content">
+                    <h3>Компютърът</h3>
+                    <h4>Джон Атанасов</h4>
+                    <p>Първият цифров електронен компютър е създаден от българина Джон Атанасов...</p>
+                    <a href="computer.html" class="read-more-btn">Научи повече &rarr;</a>
+                </div>
+                <div class="card-img">
+                    <img src="images/1538635115ORIGINAL-john_atanasoff-2-960x640.jpg" alt="Компютър">
+                </div>
+            </div>
+
+            <div class="discovery-card hidden reverse">
+                <div class="card-content">
+                    <h3>Българската роза</h3>
+                    <h4>Lactobacillus Bulgaricus</h4>
+                    <p>Д-р Стамен Григоров открива бактерията, отговорна за ферментацията на киселото мляко...</p>
+                    <a href="yogurt.html" class="read-more-btn">Научи повече &rarr;</a>
+                </div>
+                <div class="card-img">
+                    <img src="images/kiselo-mlIako.jpg" alt="Кисело мляко">
+                </div>
+            </div>
+
+            <div class="discovery-card hidden">
+                <div class="card-content">
+                    <h3>Въздушната възглавница</h3>
+                    <h4>Асен Йорданов</h4>
+                    <p>Авиаторът Асен Йорданов допринася значително за безопасността на полетите...</p>
+                    <a href="airbag.html" class="read-more-btn">Научи повече &rarr;</a>
+                </div>
+                <div class="card-img">
+                    <img src="images/Asen_Jordanov.png" alt="Авиация">
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Борис Боянов Цанков</p>
+        <p>Фак. номер: 126425303</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
